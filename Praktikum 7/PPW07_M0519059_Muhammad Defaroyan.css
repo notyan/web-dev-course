@@ -1,0 +1,111 @@
+html, body, aside{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #16213e;
+	background-repeat: no-repeat;
+	background-position: -300px -100px;
+	font-family: 'Nunito', sans-serif;
+}
+h4:hover{
+	cursor: pointer;
+	color: #0f3460;
+}
+.heads{
+	font-weight: bold;
+	display: grid;
+	grid-template-columns: 80% 20% ;
+	background-color: #1a1a2e;
+	color: #fcfaef;
+	padding: 12px 8px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.heads p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}.heads b{
+	color: #e94560;
+}.heads p:hover{
+	cursor: pointer;
+}
+.isi{
+	float:left;
+	width: 75%;
+	padding: 16px;
+}.showcase{
+	width: 75%;
+	height: 540px;
+	margin: auto;
+}#slide{
+	height: 100%;
+}#slide img{
+	width: 100%;
+}.dot {
+  cursor: pointer;
+  height: 14px;
+  width: 14px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: -18px;
+}.dot:hover {
+  background-color: #0f3460;
+}
+
+.caption{
+	color: white;
+	width: 70%;
+	margin:auto;
+}
+.author{
+	margin-top: 24px;
+}
+.author img{
+	float: left;
+	width: 64px;
+	margin-right: 8px
+}
+.note{
+	color: gray;
+	font-size: 14px;
+}
+.meme{
+	background-color: #0f3460;
+	float: right;
+	width: 20%;
+	border-left: solid 6px #0f3460;
+	border-right: solid 6px #0f3460;
+
+}.meme h4{
+	color: white;
+	background-color: #0f3460;
+	padding: 16px;
+	margin:0;
+	font-size: 24px;
+}
+.meme-box{
+	margin-bottom: 4px;
+}
+.meme img{
+	width: 100%;
+}
+.clickable h4{
+	float:left;
+	margin-right: 24px;
+}.kanan{
+	float: right;
+	font-size: 18px;
+}
+.box{
+	margin-left: 32px;
+}
+.box p{
+	padding: 16px;
+	background-color: #0f3460;
+}.box b:hover{
+	cursor: pointer;
+	color: #1a1a2e;
+}
+

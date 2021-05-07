@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PPW07</title>
+	<link rel="stylesheet" href="PPW07_M0519059_Muhammad Defaroyan.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class='heads'>
+		<p href="#" style="float:left; color: #fcfaef; font-size: 32px"> <b>N</b>eg<b>A</b>rt</p>
+		<p href="#" style="float:right; color: #fcfaef; margin:auto"> Login/Sign Up</p>
+	</div>
+	<div class='content'>
+		<div class='isi'>
+			<div class='showcase'>
+				<img id='slide' src="https://i.pinimg.com/originals/ca/7d/86/ca7d8627f7fe82ac0a1e006836088362.jpg">
+				<div style="text-align:center">
+				  <span class="dot" onclick="now(0)"></span>
+				  <span class="dot" onclick="now(1)"></span>
+				  <span class="dot" onclick="now(2)"></span>
+				  <span class="dot" onclick="now(3)"></span>
+				</div>
+
+			</div>
+
+			<div class='caption'>
+				<div class='clickable'>
+					<h4>&#9829; Add To Favourites</h4>
+					<h4>&#9776; Comment</h4>
+					<div class='kanan'>
+						<h4>&#9734;</h4>
+						<h4>&#9867;</h4>
+					</div>	
+				</div>
+				<br>
+				<br>
+				<div class='author'>
+					<a href="https://www.deviantart.com/martulen"><img src="https://a.deviantart.net/avatars-big/m/a/martulen.jpg?6"></a>
+					<h4>Background study</h4>
+					<a href="https://www.deviantart.com/martulen"><h4 style="color: white"><i>by</i> <u>Martulen</u></h4></a>
+				</div>
+				<div class="desc">
+					<p>My new painting. It is a background study of the movie Spirited Away (such a wonderful film!) by Studio Ghibli.</p>
+					<p><b>#Painting #SpiritedAway #Chihiro #Ghibli #StudioGhibli #background #clouds #sky #sea #island #landscape #Miyazaki #Fanart #Study </b></p>
+					<p class='note'>Published: Apr 11, 2020</p>
+					<p class='note'>© 2020 - 2021 Martulen</p>
+				</div>
+				<br>
+				<div class="comment">
+					<p><b>COMMENTS</b> 69</p>
+					<div class="box">
+						<p><b>Join the community</b> to add your comment. Already a Negus? <b>Log In</b></p>
+						<p><b>Amyakemey</b> <i>May 16, 2020</i> <br> love it</p>
+						<p><b>Mike1Wallace</b> <i>Apr 13, 2020</i> <br> Lovely this peaceful island</p>
+						<p><b>CritCorsac</b> <i>Apr 12, 2020</i> <br> Lovely scene. One of my favorite movies of all time!</p>
+						<p><b>Wikipedia</b> <i>Apr 12, 2020</i> <br> <b>Negus</b> is a noun derived from the Ethiopian Semitic root ngś, meaning "to reign". The title has subsequently been used to translate the word "king" or "emperor" in Biblical and other literature.</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class='meme'>
+			<h4>Meme Section</h4>
+			<div class='meme-box'>
+				<a href=""><img src="https://img-9gag-fun.9cache.com/photo/agB18Nn_460swp.webp"></a>
+			</div>
+			<div class='meme-box'>
+				<a href=""><img src="https://img-9gag-fun.9cache.com/photo/abV14dL_700bwp.webp"></a>
+			</div>
+			<div class='meme-box'>
+				<a href=""><img src="https://img-9gag-fun.9cache.com/photo/axM33nn_700bwp.webp"></a>
+			</div>
+			<div class='meme-box'>
+				<a href=""><img src="https://img-9gag-fun.9cache.com/photo/abV1OEr_700bwp.webp"></a>
+			</div>
+		</div>	
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<script>
+		
+			var img = [
+				'https://i.pinimg.com/originals/ca/7d/86/ca7d8627f7fe82ac0a1e006836088362.jpg',
+				'https://wallpaperaccess.com/full/1193275.jpg',
+				'https://i.pinimg.com/originals/8b/f2/18/8bf2187d7280c782990e65cebea806b0.jpg',
+				'https://wallpaperaccess.com/full/1188141.jpg'
+			]
+			var index = 0
+			function now(n){
+				index = n
+				$("#slide").attr("src",img[n])
+				console.log(index)
+			}
+			setInterval(function(){
+				$("#slide").attr("src", img[index++ % img.length])
+			}, 2000)	
+				
+		
+	</script>
+</body>
+</html>
