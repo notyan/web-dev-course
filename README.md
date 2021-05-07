@@ -5,7 +5,7 @@
 * All image here are used only for educational purpose.
 * Image source https://www.instagram.com/p/CNo3QluBzzM/ by tahilalats
 * background https://www.deviantart.com/arsenixc/art/Tokyo-Street-Sunset-680726181 by arsenic
-  <img src="https://github.com/notyan/web-dev-course/blob/main/Praktikum%205/PPW05_M0519059_Muhammad%20Defaroyan.png" height="500"/>
+  <img src="https://github.com/notyan/web-dev-course/blob/main/Praktikum%205/PPW05_M0519059_Muhammad%20Defaroyan.png"/>
 
 ## Praktikum 6
 #### CSS Layouting with CSS-Grid
