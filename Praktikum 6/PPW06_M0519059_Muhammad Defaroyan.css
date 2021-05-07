@@ -1,0 +1,87 @@
+html, body, aside{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/549e9b77-4c90-4c7f-8d0e-772a4ba70576/db9abol-4c3a8d76-9a7a-4850-8448-5dd2dd1c2f32.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNTQ5ZTliNzctNGM5MC00YzdmLThkMGUtNzcyYTRiYTcwNTc2XC9kYjlhYm9sLTRjM2E4ZDc2LTlhN2EtNDg1MC04NDQ4LTVkZDJkZDFjMmYzMi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.9dPH2VNms-03DUfQRwf0HZx6qMxWdCLqpg9_sl-DrTM");
+	background-repeat: no-repeat;
+	background-position: -300px -100px;
+	font-family: 'Nunito', sans-serif;
+}
+aside{
+	margin: 8px 0px 8px 8px;
+	float: right;
+	width: 30%;
+	border: solid 2px #a63636;
+}
+.tanggal{
+	margin-right: 16px;
+	border-right: solid 2px #fcfaef;
+}
+.artikel-lain{
+	padding: 1px 1px 0px 1px ;
+	background-color: #a63636;
+	color: #fcfaef;
+}
+.heads{
+	font-weight: bold;
+	display: grid;
+	grid-template-columns: 80% 20% ;
+	background-color: #a63636;
+	color: #fcfaef;
+	padding: 12px 8px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.content{
+	display: grid;
+	grid-template-columns: 2fr 10fr 3fr 3fr;
+	grid-template-rows: 75px 150px 17fr; 
+	
+}
+.sidenav{
+	background-color: #d3504a;
+	grid-column-start:1;
+	grid-row-start:3;
+}
+.sidenav a {
+	padding: 8px 6px 8px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #fcfaef;
+	display: block;
+	border-bottom:  solid 2px #a63636;
+	background: none;
+	width:100%;
+	text-align: left;
+	cursor: pointer;
+	outline: none;
+}
+
+.artikel{
+	border-radius: 48px 0px 0px 0px;
+	background-color: #e2e0a5;
+	padding: 16px;
+	grid-column-start:2;
+	grid-column-end:4;
+	grid-row-start: 2;
+	grid-row-end:4;
+}
+.ads{
+	margin-top: 25px;
+	background-color: #fcfaef;
+	grid-column-start:4;
+	grid-row-start: 1;
+	grid-row-end: 4;
+	border-top: solid 2px #a63636;
+	border-left: solid 2px #a63636;
+}
+.ad-box{
+	padding: 16px 0px;
+	border-bottom: solid 2px #a63636;
+}
+.ads img{
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
