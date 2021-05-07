@@ -6,6 +6,8 @@
 * Image source https://www.instagram.com/p/CNo3QluBzzM/ by tahilalats
 * background https://www.deviantart.com/arsenixc/art/Tokyo-Street-Sunset-680726181 by arsenic
 
+<img src="https://github.com/notyan/web-dev-course/blob/main/Praktikum%205/PPW05_M0519059_Muhammad%20Defaroyan.png?raw=true" />
+
 ## Praktikum 6
 #### CSS Layouting with CSS-Grid
 * A News website with layout made with CSS-Grid
@@ -24,6 +26,8 @@
 * PHP Introduction To create A simple/ Basic Calculator and a  Student ID Number Generator
   1. The Calculator can handle Addition, Subtraction, Division, and Multiplication With user input inside Form and user can choose the operator to calculate.
   2. The Student ID Number Generator can create an ID with the amount specified by the user.
+
+<img src="https://github.com/notyan/web-dev-course/blob/main/Praktikum%208/PPW08_M0519059_Muhammad%20Defaroyan.png?raw=true"/>
 
 ## Praktikum 9
 #### PHP Form handler, Foreach, Loop
