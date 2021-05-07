@@ -21,14 +21,17 @@
 </head>
 <body>
 	<?php 
-		$jml = $_POST['size'];
-		$masuk = $_POST['nama'];
+		$jml = null;
+		$masuk =null;
+		isset($_POST['size']) ? $jml = $_POST['size'] : null;
+		isset($_POST['nama']) ? $masuk = $_POST['nama'] : null;
 		$arr = array_values(array_filter(explode("\r\n", $masuk)));
 		$rand = array_values(array_filter(explode("\r\n", $masuk)));
 	?>
 
 	<div class="container">
 		<form action="#" method="POST">
+			<h1>Group Maker Randomizer</h1>
 			<textarea rows='8' name="nama" ></textarea>
 			<div class="input-group mb-3">
 			  <div class="input-group-prepend">
@@ -49,7 +52,7 @@
 			    echo "</table>";
 
 				shuffle($rand);
-				$max = sizeof($arr)/$jml;
+				$jml == 0 ? '' : $max = sizeof($arr)/$jml;
 				$satu = 1;
 			   
 			    for($i = 0; $i < $jml; $i++){
@@ -59,10 +62,8 @@
 					        echo "<tr>" . "<td>" . array_shift($rand) . "</td>" . "</tr>";
 				    	}
 			    	echo "</table>";
-			    }
-			   
+			    } 
 			?>
-
 		</form>
 	</div>
 </body>
