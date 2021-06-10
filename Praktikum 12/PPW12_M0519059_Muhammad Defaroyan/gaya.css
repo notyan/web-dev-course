@@ -1,0 +1,85 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 11px;
+	margin: 8px auto;
+	width: 600px;
+	padding: 16px;
+	margin: 32px auto auto auto;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 16;
+	transition: 0.3s;
+}
+
+a, a:visited {
+	color: blue;
+	text-decoration: underline;
+}
+
+a:hover {
+	background: #bae8e8;
+	color: white;
+	text-decoration: none;
+}
+
+input, textarea, select {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 11px;
+}
+
+p {
+	text-align: justify;
+}
+form>* {
+	box-sizing: border-box;
+	display: block;
+	margin-bottom: 16px;
+}
+
+form>label {
+	float: left;
+	width: 96px;
+}
+
+form>input, form>textarea, form>select {
+	width: calc(100% - 96px);
+}
+
+form>input[type=submit], form>input[type=reset] {
+	float: left;
+	width: initial;
+}
+.box {
+	margin: 16px auto 16px auto;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 16;
+	transition: 0.3s;
+	background-color: #e3f6f5;
+}.box:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}.container {
+	padding: 4px 16px;
+}.pd-btm{
+	padding-bottom: 24px;
+}
+.comment-box{
+	border-left-style: solid; 
+	border-width: 2px;
+	border-color: #bae8e8; 
+	padding: 0.1rem 0.5rem;
+	margin-top: 1rem;
+}
+input[type=submit], input[type=reset]{
+	margin-right: 6px;
+	background-color: #bae8e8;
+	border: none;
+	color: #272343;
+	padding: 4px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	border-radius: 4px;
+}input[type=submit]:hover, input[type=reset]:hover{
+	background-color: #272343;
+	color:  #bae8e8;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PPW03_M0519059</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body{
+			font-family: 'Nunito', sans-serif;
+		}
+		select {
+			background-color: transparent;
+			padding: 16px 4px;
+			border: none;
+			border-bottom: 1px solid gray;
+		}
+		input[type=submit]{
+			background-color: #f44336;
+			width: 100%;
+			border: none;
+			color: white;
+			padding: 16px 16px;
+			font-weight: bold;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			border-radius: 12px;
+		}
+		table{
+			border-collapse: collapse;
+		}
+		td, th {
+			border: 1px solid #999;
+			padding: 8px 8px;
+			text-align: left;
+		}
+		tr:hover {
+			background-color: #8ea6b4;
+		}
+		.oohay::placeholder{
+			color:black;
+		}
+		.content {
+			max-width: 400px;
+			margin: auto;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  			transition: 0.3s;
+  			background-color: #f8fceb;
+		}.content:hover {
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+		}
+
+		.container{
+			margin: auto;
+			padding: 24px 32px;
+			max-width: 300px;
+		}
+		.field{
+		 	background-color: transparent;
+			border: none;
+			border-bottom: 2px solid #8ea6b4;
+			padding: 16px 0px;
+			width:100%;
+		}.field:focus {
+			border-bottom: 2px solid black;
+			outline: none;
+		}
+		.row{
+			display: flex;
+		}
+		.text{
+			font-family: 'Nunito', sans-serif;
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="content">
+		<div class="container">
+			<form>
+				<p class="text" style="font-size:36px; margin: 0px">Pendaftaran</p>
+				<p class="text" style=" margin: 0px; padding:8px">Buat Akun email !oohaY</p>
+				<div class="row" >
+					<input class="field" type="text" name="fname" placeholder="Nama Depan">
+					<input class="field" style="margin-left: 8px" type="text" name="sname" placeholder="Nama Belakang">
+				</div>
+
+				<div class="row" style="padding-bottom: 8px">
+					<input class="field" type="text" name="email" placeholder="Email Address">
+					<input class="field oohay" type="email" name="email" placeholder="@oohay.com" readonly>
+				</div>
+
+				<a href="#" style="font-size: 14px;" >Saya ingin menggunakan alamat email saya</a>
+				<input class="field" type="password" name="pass" placeholder="Kata Sandi"><br>
+
+				<div class="row" style="display: flex">
+					<select name="country-id" >
+						<option value="my">+60</option>
+						<option value="au">+61</option>
+						<option value="id">+62</option>
+						<option value="ph">+63</option>
+					</select>
+					<input class="field" style="margin-left: 8px" type="tel" maxlength="12"   name="number" placeholder="Nomor Telepon Gengam"><br>
+				</div>
+
+				<div class="row" >
+					<select name="month">
+					  	<option value="" disabled="disabled" selected="selected">Bulan Lahir</option>
+					  	<option value="Jan">Januari</option>
+					  	<option value="Feb">Februari</option>
+					  	<option value="Mar">Maret</option>
+					  	<option value="Apr">April</option>
+						<option value="May">Mei</option>
+					  	<option value="Jun">Juni</option>
+					  	<option value="Jul">Juli</option>
+					  	<option value="Aug">Agustus</option>
+						<option value="Sep">September</option>
+					  	<option value="Oct">Oktober</option>
+					  	<option value="Nov">November</option>
+					  	<option value="Dec">Desember</option>
+					</select>
+					<input class="field" style="margin-left: 8px" type="text" name="day" placeholder="Day">
+					<input class="field" style="margin-left: 8px" type="text" name="year" placeholder="Year"><br>
+				</div>
+				<input class="field" type="text" name="Gender" placeholder="Jenis Kelamin (Opsional)"><br>
+				<P class="text" style="font-size: 14px; padding: 8px 16px">Dengan Menekan "Selanjutnya", Anda Menyetujui <a href="#" >S&K</a> Serta <a href="#" >Kebijakan Privasi</a></P>
+				<input type="submit" name="submit" value="Selanjutnya">
+				<P class="text" style="font-size: 14px; padding: 8px 16px">Sudah Memiliki Akun? <a href="#" >Masuk</a></P>
+			</form>
+		</div>
+	</div>
+	<br>
+	<hr>
+	<br>
+	<div class="content">
+		<div class="container">
+			<table>
+				<tr>
+					<td>Nama</td>
+					<td>Muhammad Defaroyan</td>
+				</tr>
+				<tr>
+					<td>Jenis Kelamin</td>
+					<td>Laki-Laki</td>
+				</tr>
+				<tr>
+					<td>NIM</td>
+					<td>M0519059</td>
+				</tr>
+				<tr>
+					<td>Pekerjaan</td>
+					<td>Mahasiswa</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
